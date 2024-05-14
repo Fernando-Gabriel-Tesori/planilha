@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planilha de Anotação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Planilha de Anotação</h1>
+        <form id="note-form">
+            <label for="note-time">Horário:</label>
+            <input type="time" id="note-time" required>
+            <label for="note-text">Anotação:</label>
+            <input type="text" id="note-text" required>
+            <button type="submit">Salvar Anotação</button>
+        </form>
+        <h2>Anotações</h2>
+        <ul id="note-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
